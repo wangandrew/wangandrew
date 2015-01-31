@@ -1,19 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="main.css">
     
   </head>
 
   <body>
+    <div id="wrapper">
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand"><a href="#">Home</a></li>
+            <li><a href="#">Another link</a></li>
+            <li><a href="#">Next link</a></li>
+            <li><a href="#">Last link</a></li>
+        </ul>
+    </div>
+    <div id="page-content-wrapper">
+        <div class="page-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="nav">
+                          <div class="container">
+                            <ul class="pull-left">
+                              <li><a href="#">Gallery</a></li>
+                              <li><a href="#">Experience</a></li>
+                            </ul>
+                            <ul class="pull-right">
+                              <li><a href="#">Education</a></li>
+                              <li><a href="#">Organizations</a></li>
+                              <li><a href="#">Contact</a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="jumbotron">
+                          <div class="container">
+                            <h1>Why should you hire me?<small>P.S., you should!</small></h1>
+                            <p>Because I'm fucking awesome.</p>
+                            <a href="#">Learn More</a>
+                          </div>
+                        </div> 
+                        <div class="neighborhood-guides">
+                            <div class="container">
+                                <h2>CS Major with Modeling Experience</h2>
+                                <p>;)</p>
+                                <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="https://scontent-a.xx.fbcdn.net/hphotos-ash2/v/t1.0-9/601520_10151548156170904_1532353877_n.png?oh=a7fc32f96a7aa7bfcf1712bf6f0f4f53&oe=556577BD">
+                                </div>
+                                <div class="thumbnail">
+                                    <img src="https://scontent-b.xx.fbcdn.net/hphotos-prn2/v/t1.0-9/1239933_10151548155500904_729558102_n.png?oh=a53d9ca6ecce17846ba723bcbf3e74aa&oe=55515F1E">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                            <div class="thumbnail">
+                                    <img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-frc3/v/t1.0-9/933931_10151548155525904_209886900_n.png?oh=a50b3ff047f9d89a8ea6b99c82d0aa77&oe=554F8A9F&__gda__=1431503328_01530dc1061c77ed2a02c030970cf377">
+                                </div>
+                                <div class="thumbnail">
+                                    <img src="https://scontent-a.xx.fbcdn.net/hphotos-prn2/v/t1.0-9/60616_10151548155790904_1698482488_n.png?oh=d4bf6b13d2b787aa51664cb7966fe24e&oe=55689BB1">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                            <div class="thumbnail">
+                                    <img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/1234011_10151548156045904_799017613_n.png?oh=148a001603c95178e5536f9d8083f2c1&oe=556E06B2&__gda__=1431325801_ad751236097a8347579d1c0c2c472ceb">
+                                </div>
+                                
+                            </div>
+                            </div>
+                            </div>
+                            
+                        </div>
+                        <div class="learn-more">
+                        <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                          <h3>Will I model nude?</h3>
+                          <p>Maybe. Contact to make arrangements.</p>
+                          <p><a href="#">See how to reach Andrew</a></p>
+                            </div>
+                          <div class="col-md-4">
+                          <h3>What is your coding experience?</h3>
+                          <p>Lots.</p>
+                          <p><a href="#">Learn more about Andrew's projects</a></p>
+                          </div>
+                          <div class="col-md-4">
+                          <h3>Want to work for me?</h3>
+                          <p>I'd love to get to know you!.</p>
+                          <p><a href="#">Submit resume here</a></p>
+                          </div>
+                          </div>
+                        </div> 
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
     <div class="nav">
       <div class="container">
         <ul class="pull-left">
-          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
           <li><a href="#">Experience</a></li>
         </ul>
         <ul class="pull-right">
@@ -26,7 +129,7 @@
 
     <div class="jumbotron">
       <div class="container">
-        <h1>Why should you hire me?</h1>
+        <h1>Why should you hire me?<small>P.S., you should!</small></h1>
         <p>Because I'm fucking awesome.</p>
         <a href="#">Learn More</a>
       </div>
@@ -81,7 +184,7 @@
 			<p><a href="#">Submit resume here</a></p>
 		  </div>
 	    </div>
-	  </div>
-	</div>
+	  </div> 
+	</div> -- >
   </body>
 </html>
